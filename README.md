@@ -15,8 +15,6 @@ The application uses an in-memory H2 database with the following details:
     Username: sa
     Password:
 
-![image description](src/main/resources/static/images/rates.png)
-
 #### Check mortgage feasibility
 
 * Method : POST
@@ -69,8 +67,6 @@ This calculation shows that for the given loan details, the monthly EMI amount w
 ## Implemented Swagger for documentation 
 
 Endpoint : http://localhost:8080/swagger-ui.html
-
-![image description](src/main/resources/static/images/swagger.png)
 
 Finally, I have implemented spring boot profiles which will be used to disable swagger in the production environment
 
